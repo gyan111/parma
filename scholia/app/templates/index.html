@@ -3,7 +3,7 @@
 {% block metas %}
 {{super()}}
 <meta name="description" content="View scholarly profiles from Wikidata for topics, people, organizations, species, chemicals, etc.">
-<meta property="og:title" content="Scholia">
+<meta property="og:title" content="Parma">
 <meta property="og:description" content="Scholia is a service that creates visual scholarly profiles for topic, people, organizations, species, chemicals, etc using bibliographic and other information in Wikidata." />
 <link href="https://wikis.world/@wdscholia" rel="me">
 {% endblock %}
@@ -17,7 +17,7 @@
 <div class="container">
     <div class="card my-3">
       <div class="card-body">
-	Scholia is a service that creates visual scholarly profiles for
+	Parma is a service that Visualize book data from Wikidata
 	<a href="topic/">topics</a>,
 	<a href="author/">people</a>,
 	<a href="organization/">organizations</a>,
@@ -30,7 +30,7 @@
 
 <div class="container">
   <div class="alert alert-warning" role="alert">
-    Scholia relies on Wikidata, and Wikidata contains only a limited albeit growing subset of the corpus of scholarly literature, its authors and citations.
+    Parma relies on Wikidata, and Wikidata contains only a limited albeit growing subset of the corpus of scholarly literature, its authors and citations.
     Read more about the limitations in the <a href="faq">FAQ</a> or check the <a href="{{ url_for('app.index_statistics') }}">statistics</a>.
   </div>
 </div>
